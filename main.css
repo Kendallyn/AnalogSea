@@ -1,0 +1,93 @@
+body {
+    background-color: dodgerblue;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.logo {
+    height: 35px;
+    display: block;
+    width: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+form {
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    padding: 40px;
+}
+
+legend {
+    font-weight: 300px;
+    color: #565656;
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+}
+
+input {
+    text-align: left;
+    width: 320px;
+    height: auto;
+    border: 2px solid #DDDDDD;
+    padding: 15px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: lightgray;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+button {
+    width: 355px;
+    height: 55px;
+    border: 2px solid;
+    background-color: #15CD72;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.forgot-password {
+    color: gray;
+    margin-left: 115px;
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+}
+
+.account {
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.account a {
+    color: white;
+}
